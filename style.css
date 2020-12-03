@@ -9,8 +9,8 @@
 body {
     background: var(--white);
     overflow: hidden;
-    -webkit-animation: changeBG .9s forwards 3s;
-    animation: changeBG .9s forwards 3s;
+    -webkit-animation: changeBG .8s forwards 3.3s;
+    animation: changeBG .8s forwards 3.3s;
 }
 
 
@@ -187,7 +187,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     from{
         background: var(--white);
     } to {
-        background: var(--primary);
+        background:#FEC900;
     }
 }
 
