@@ -9,8 +9,8 @@
 body {
     background: var(--white);
     overflow: hidden;
-    -webkit-animation: changeBG .8s forwards 3.3s;
-    animation: changeBG .8s forwards 3.3s;
+    -webkit-animation: changeBG .9s forwards 3s;
+    animation: changeBG .9s forwards 3s;
 }
 
 
