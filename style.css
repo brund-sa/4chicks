@@ -10,6 +10,7 @@ body {
     background: var(--white);
     overflow: hidden;
     -webkit-animation: changeBG .9s forwards 3s;
+    animation: changeBG .9s forwards 3s;
 }
 
 
@@ -33,6 +34,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     height: 100vh;
     background: var(--primary);
     -webkit-animation: up1 .9s forwards .2s;
+    animation: up1 .9s forwards .2s;
 }
 
 .slider2 {
@@ -40,6 +42,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     height: 100vh;
     background: var(--secondary);
     -webkit-animation: up1 .9s forwards .3s;
+    animation: up1 .9s forwards .3s;
 }
 
 .slider3 {
@@ -48,6 +51,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     background: var(--primary);
     opacity: 0.6;
     -webkit-animation: up1 .8s forwards .4s;
+    animation: up1 .8s forwards .4s;
 }
 
 .main {
@@ -66,12 +70,14 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     
     position: relative;
     -webkit-animation: fadeOut 0.9s forwards 3s;
+    animation: fadeOut 0.9s forwards 3s;
 }
 
 .logo {
     width: 40%;
     opacity: 0;
     -webkit-animation: fadeIn 1s forwards 2s;
+    animation: fadeIn 1s forwards 2s;
 }
 
 .logoWrap::before {
@@ -84,6 +90,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     top: 46%;
     position: absolute;
     -webkit-animation: fadeIn 1s forwards 2s, scaleIn 1s forwards 3s;
+    animation: fadeIn 1s forwards 2s, scaleIn 1s forwards 3s;
     opacity:0;
     transform: scale3d(1,1,1);
 }
@@ -102,6 +109,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     transform: translate(-50%);
     opacity: 0;
     -webkit-animation: fadeIn 1s forwards 5s;
+    animation: fadeIn 1s forwards 5s;
 }
 
 .textComingSoon .ar {
@@ -109,6 +117,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     top: -90px;
     font-size: 23rem;
     -webkit-animation: fadeIn 1s forwards 5.6s;
+    animation: fadeIn 1s forwards 5.6s;
     opacity: 0; 
 }
 
@@ -118,6 +127,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     text-align: center;
     font-size: 5rem;
     -webkit-animation: fadeIn 1s forwards 6.2s;
+    animation: fadeIn 1s forwards 6.2s;
     opacity: 0; 
 
 }
