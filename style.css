@@ -200,7 +200,13 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     }
 }
 */
+.en span {
+    margin: -8px;
+}
 
+.en span:nth-child(7) {
+    margin-left: 25px;
+}
 @keyframes up1 {
     from {
         height: 100vh;
@@ -276,5 +282,18 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     .textComingSoon .en{
         top: 0;
         font-size:2rem;
+    }
+    .logo-black {   
+        width: 25%;
+    }
+    .en span {
+        font-size: 1rem;
+    }
+    .en span {
+        margin: -3px;
+    }
+    
+    .en span:nth-child(7) {
+        margin-left: 0px;
     }
 }
