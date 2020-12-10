@@ -89,8 +89,9 @@ h1,h2,h3,h4,h5,h6, p, a, span {
 
 .logo-black {
     position: relative;
-    width: 7%;
+    width: 60%;
     filter: invert(1);
+    top: -155px;
     left: 50%;
     transform: translate(-50%);
     opacity: 0;
@@ -259,7 +260,9 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     from{
         background: var(--white);
     } to {
-        background:#FEC900;
+        background:url(soon.gif);
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -283,8 +286,7 @@ h1,h2,h3,h4,h5,h6, p, a, span {
         top: 0;
         font-size:2rem;
     }
-    .logo-black {   
-        width: 25%;
+    .logo-black {   width: 50%;
     }
     .en span {
         font-size: 1rem;
