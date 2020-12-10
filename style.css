@@ -9,8 +9,6 @@
 body {
     background: var(--white);
     overflow: hidden;
-   -webkit-animation: changeBG .9s forwards 3s;
-    animation: changeBG .9s forwards 3s; 
 }
 
 
@@ -59,6 +57,10 @@ h1,h2,h3,h4,h5,h6, p, a, span {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    -webkit-animation: changeBG .9s forwards 3s;
+     animation: changeBG .9s forwards 3s; 
 }
 
 .logoWrap {
